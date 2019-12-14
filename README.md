@@ -2,4 +2,4 @@
 
 
 # Identifier -SeleniumWebScraper-
-Python scripts for Twitter, Instagram and Facebook scraping
+This is a Webcrawler based on Selenium frameworks for scrape web page of Twitter, Instagram and Facebook.
