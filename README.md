@@ -19,3 +19,8 @@ Each script has a function that takes a link to a Facebook, Instagram or Twitter
 References:
 
 http://docs.seleniumhq.org/
+
+# SVM_HYFINE -Model-
+
+This is the implementation of HYFINE-classifier on a pythonbook.
+
