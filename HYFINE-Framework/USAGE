@@ -1,0 +1,31 @@
+User Manual Scraper
+
+
+MOD 1 (scraping)
+
+1- run simulatoreInsta.py
+                    return defaultdict --> key: {URL insta profile}, value: {list of link ( supported: youtube, facebook, twitter, link.tree )}
+
+2- run simulatoreYou.py
+                    getYuoChannelCorrect(defaultdict) correct link scraped in 1-
+                    getSocialFromYouChannel(defaultdictCorrect) extract all link scraped in youtube channel
+
+3- run fromDictToDF.py
+                    convertKeyDicRegular(d1) rebuild dict in this way: key: user names, delete keys too much long, eliminate any duplicates.
+                    sortCriteria(d1) build second dict: {usr_name: [id_Youtube, id_Insta, id_Facebook, id_Twitter]}
+
+
+MOD 2 (subscraping)
+
+
+2- run simulatoreYou.py
+                    getNewYuotubeChannel(dictYoutubeChannel) taking final dict return new channel scraped from suggested
+                    newYouChannel(list,dict) make sure there are no duplicates
+                    createDictFromList(list) takes the list created at the previous step and saves it in a defaultdict
+                    getSocialFromYouChannel(defaultdictCorrect) scrape external link (twitter, facebook, intagram)
+
+
+N.B.
+This code uses Selenium Web scraper. Therefore it is strongly related to the DOM of the web page you are working on. 
+
+This code worked correctly from day 10/4/2019 to day 4/11/2019 (day the last test was done)
