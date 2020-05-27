@@ -4,6 +4,11 @@
 # Identifier -SeleniumWebScraper-
 This is a Webcrawler based on Selenium frameworks for scrape web page of Twitter, Instagram and Facebook.
 
+In the HYFINE-Framework folder you can find scripts able to extract fields such as name, genre, profile images of three of the most important Social Networks: Twitter, Facebook, Instagram.
+
+For more information read the user manual of the framework in the HYFINE-Framework folder.
+
+
 HOW TO EXECUTE:
 
 Is required an environment with the following requirements installed:
