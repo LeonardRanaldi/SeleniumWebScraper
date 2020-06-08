@@ -29,8 +29,3 @@ http://docs.seleniumhq.org/
 
 This is the implementation of HYFINE-classifier on a pythonbook.
 
-# ciao
-colab: 
-[[Colab]](https://colab.research.google.com/drive/16BW4TLGuvBL5FbCqlA5lZ_ME3sb0vjMm?usp=sharing)<br>
-
-
