@@ -18,7 +18,27 @@ Is required an environment with the following requirements installed:
 To scrape web page of Instagram, Facebook, Twitter should be executed the related script in the scraper folder.
 Each script has a function that takes a link to a Facebook, Instagram or Twitter profile and returns a dictionary.
 
- 
+ Project Organization
+------------
+
+    |
+    ├── /HYFINE-Framework                <- Folder containing HYFINE Framework      
+    |       ├── USAGE                    <- Readme file that introduce Framework
+    |       ├── buildDataset.py          <- Script for building dataset
+    |       ├── build_final_dataset.py   <- Script for building dataset final dataset
+    |       ├── correctURL.py            <- Script for check the integrity of url
+    |       ├── writeAndReadFile.py      <- Script for write and read file created by buildDataset scripts
+    |       ├── findInfoGenderAPI.py     <- Script for check information about profiles on twitter, instagram and Facebook
+    |       ├── imageFace.py             <- Script for check face given an image (if it's present)
+    |       ├── scrapeFacebook.py        <- Script for scrape scrape Facebook web page
+    |       ├── scrapeTwitter.py         <- Script for scrape scrape Twitter web page
+    |       └── scrapeInsta.py           <- Script for scrape scrape Instagram web page
+    |
+    ├── SVM_HYFINE.ipynb                 <- Implementation of HYFINE-classifier.
+    ├── LICENSE                          <- License file
+    └── README.md                        <- This Readme file
+     
+--------
 
 
 # References:
