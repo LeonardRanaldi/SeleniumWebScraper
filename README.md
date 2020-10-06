@@ -13,11 +13,13 @@ For more information read the user manual of the framework in the HYFINE-Framewo
 
 Is required an environment with the following requirements installed:
 
+* [Python](python.org) >=3.5
+* [Selenium web-drivers](https://www.selenium.dev/projects/)
 
--Python >=3.5
--Selenium web-drivers
 
 To scrape web page of Instagram, Facebook, Twitter should be executed the related script in the scraper folder.
+
+
 Each script has a function that takes a link to a Facebook, Instagram or Twitter profile and returns a dictionary.
 
  Project Organization
@@ -43,11 +45,6 @@ Each script has a function that takes a link to a Facebook, Instagram or Twitter
 --------
 
 
-# References:
-
-http://docs.seleniumhq.org/
-
-
 # SVM_HYFINE -Model-
 
 This is the implementation of HYFINE-classifier on a pythonbook.
@@ -63,5 +60,4 @@ If you use this code, please cite the paper:
   volume={10},
   pages={1-9}
 }
-```
 ```
