@@ -9,7 +9,7 @@ In the HYFINE-Framework folder you can find scripts able to extract fields such 
 For more information read the user manual of the framework in the HYFINE-Framework folder.
 
 
-HOW TO EXECUTE:
+# HOW TO EXECUTE:
 
 Is required an environment with the following requirements installed:
 -Python >=3.5
@@ -21,7 +21,7 @@ Each script has a function that takes a link to a Facebook, Instagram or Twitter
  
 
 
-References:
+# References:
 
 http://docs.seleniumhq.org/
 
